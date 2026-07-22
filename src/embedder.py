@@ -12,6 +12,6 @@ def embed_text(texts):
     return embeddings
 
 if __name__ == '__main__':
-    test_sentences = ["Meeting your health care needs", "Medicare now pays for Advanced Primary Care Management services each"]
+    test_sentences = ["As for yourself, let me prevail upon you to take the best ship you can get", "with a crew of twenty men, and go in quest of your father who has so long been missing"]
     vecs = embed_text(test_sentences)
     print(f"Shape of vector {vecs.shape}")
