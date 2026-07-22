@@ -1,4 +1,4 @@
-from data_loader import load_pdf
+from .data_loader import load_pdf, load_txt
 
 # splitting text into smaller pieces to process them, using a fixed-size approach for (sentence-based )
 def chunk_text(text, chunk_size = 500, overlap = 50): # chunk_size & overlap are both in characters for now(& not tokens), simpler to reason about. I'll switch to token-based if this isn't promising
@@ -17,7 +17,7 @@ def chunk_text(text, chunk_size = 500, overlap = 50): # chunk_size & overlap are
     return chunks
 
 if __name__ == '__main__':
-
+    '''
     text = load_pdf("data/10050-medicare-and-you.pdf")
 
     chunks = chunk_text(text)
@@ -28,5 +28,17 @@ if __name__ == '__main__':
 
     print("*****Second Chunk*****\n")
     print(chunks[1])
+    '''    
+    # prototyping on public domain first using homer's odyssey
+    od_text = load_txt("data/the_odyssey.txt")
+
+    od_chunks = chunk_text(od_text)
+
+    print(f"Length of Chunks {len(od_chunks)}\n")
+    print("*****First Chunk*****\n")
+    print(od_chunks[0],"\n")
+
+    print("*****Second Chunk*****\n")
+    print(od_chunks[1])
 
 
