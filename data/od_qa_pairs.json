@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "question": "Who is the main hero of The Odyssey?",
+    "answer": "The main hero is Odysseus, the king of Ithaca.",
+    "source_section": "General narrative context",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "Where is Odysseus trying to return?",
+    "answer": "He is trying to return home to Ithaca.",
+    "source_section": "General narrative context",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "Who is Odysseus’s wife?",
+    "answer": "His wife is Penelope.",
+    "source_section": "Penelope references",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Who is Odysseus’s son?",
+    "answer": "His son is Telemachus.",
+    "source_section": "Telemachus references",
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "question": "What problem is happening in Odysseus’s home while he is away?",
+    "answer": "Suitors are staying in his house and trying to marry Penelope.",
+    "source_section": "Penelope and suitors note",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "Who is Eumaeus?",
+    "answer": "Eumaeus is a loyal servant or swineherd of Odysseus.",
+    "source_section": "Eumaeus references",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "What kind of journey does Telemachus go on?",
+    "answer": "He travels to learn about his father and seek news of Odysseus.",
+    "source_section": "Telemachus journey reference",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "Who are the suitors trying to marry?",
+    "answer": "They are trying to marry Penelope.",
+    "source_section": "Penelope and suitors",
+    "difficulty": "easy"
+  },
+
+  {
+    "id": 9,
+    "question": "Why was Telemachus sent to Pylos and Sparta?",
+    "answer": "He was sent to gather information about Odysseus and also to meet important figures like Helen.",
+    "source_section": "Telemachus journey explanation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "question": "What is suggested about Penelope’s behavior toward the suitors?",
+    "answer": "The text suggests she may have encouraged them at times, even if she did not truly intend to.",
+    "source_section": "Penelope note",
+    "difficulty": "medium"
+  },
+  {
+    "id": 11,
+    "question": "What does Telemachus’s character reveal about him?",
+    "answer": "He is portrayed as somewhat dependent, expecting others to help him.",
+    "source_section": "Telemachus commentary",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "question": "What is unusual about the geography in Telemachus’s journey?",
+    "answer": "The journey described would be physically difficult or unrealistic, suggesting the audience may not know the real geography.",
+    "source_section": "Journey realism note",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "question": "What role does Helen play in the story involving Telemachus?",
+    "answer": "Helen appears as part of Telemachus’s journey, likely included to add her character into the narrative.",
+    "source_section": "Helen reference",
+    "difficulty": "medium"
+  },
+
+  {
+    "id": 14,
+    "question": "What does the text imply about inconsistencies in the Odyssey’s narrative?",
+    "answer": "It suggests that some parts were added later or modified, leading to inconsistencies in events and details.",
+    "source_section": "Interpolation and authorship notes",
+    "difficulty": "hard"
+  },
+  {
+    "id": 15,
+    "question": "What interpretation is given about certain descriptions like 'floating islands'?",
+    "answer": "They are not meant to be taken literally but are figurative descriptions of movement or perspective.",
+    "source_section": "Aeolus island explanation",
+    "difficulty": "hard"
+  }
+]
