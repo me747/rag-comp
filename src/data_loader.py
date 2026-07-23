@@ -33,6 +33,11 @@ def load_txt(txt_path):
 
     txt = raw_txt[start_idx:end_idx]
 
+    # removing footnotes which is one big block tacked on after the narration ends
+    footnotes_idx = txt.rfind("FOOTNOTES:")
+    if footnotes_idx != -1:
+        txt = txt[:footnotes_idx]
+        
     return txt.strip()
 
 # quick test to check if the extracted text has any formatting or visual bugs
