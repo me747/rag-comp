@@ -15,22 +15,22 @@
   },
   {
     "id": 3,
-    "question": "Who is Odysseus’s wife?",
+    "question": "Who is Odysseus's wife?",
     "answer": "His wife is Penelope.",
     "source_section": "Penelope references",
     "difficulty": "easy"
   },
   {
     "id": 4,
-    "question": "Who is Odysseus’s son?",
+    "question": "Who is Odysseus's son?",
     "answer": "His son is Telemachus.",
     "source_section": "Telemachus references",
     "difficulty": "easy"
   },
   {
     "id": 5,
-    "question": "What problem is happening in Odysseus’s home while he is away?",
-    "answer": "Suitors are staying in his house and trying to marry Penelope.",
+    "question": "What is happening in Odysseus's home while he is away?",
+    "answer": "Suitors have occupied his home and are attempting to marry Penelope.",
     "source_section": "Penelope and suitors note",
     "difficulty": "easy"
   },
@@ -55,7 +55,6 @@
     "source_section": "Penelope and suitors",
     "difficulty": "easy"
   },
-
   {
     "id": 9,
     "question": "Why was Telemachus sent to Pylos and Sparta?",
@@ -65,44 +64,43 @@
   },
   {
     "id": 10,
-    "question": "What is suggested about Penelope’s behavior toward the suitors?",
+    "question": "What is suggested about Penelope's behavior toward the suitors?",
     "answer": "The text suggests she may have encouraged them at times, even if she did not truly intend to.",
     "source_section": "Penelope note",
     "difficulty": "medium"
   },
   {
     "id": 11,
-    "question": "What does Telemachus’s character reveal about him?",
+    "question": "What does Telemachus's character reveal about him?",
     "answer": "He is portrayed as somewhat dependent, expecting others to help him.",
     "source_section": "Telemachus commentary",
     "difficulty": "medium"
   },
-  {
+   {
     "id": 12,
-    "question": "What is unusual about the geography in Telemachus’s journey?",
-    "answer": "The journey described would be physically difficult or unrealistic, suggesting the audience may not know the real geography.",
-    "source_section": "Journey realism note",
+    "question": "What detail is given about Eumaeus's living location?",
+    "answer": "Eumaeus's hut is described as being high above the sea and offering a wide view of the surrounding area.",
+    "source_section": "Eumaeus hut description",
     "difficulty": "medium"
   },
   {
     "id": 13,
-    "question": "What role does Helen play in the story involving Telemachus?",
-    "answer": "Helen appears as part of Telemachus’s journey, likely included to add her character into the narrative.",
-    "source_section": "Helen reference",
+    "question": "What example from the text shows how everyday objects or customs are described realistically?",
+    "answer": "The text describes sandals in detail, explaining how they are made and tied, showing realistic everyday practices.",
+    "source_section": "Sandals description",
     "difficulty": "medium"
   },
-
   {
     "id": 14,
-    "question": "What does the text imply about inconsistencies in the Odyssey’s narrative?",
+    "question": "What does the text imply about inconsistencies in the Odyssey's narrative?",
     "answer": "It suggests that some parts were added later or modified, leading to inconsistencies in events and details.",
     "source_section": "Interpolation and authorship notes",
     "difficulty": "hard"
   },
   {
     "id": 15,
-    "question": "What interpretation is given about certain descriptions like 'floating islands'?",
-    "answer": "They are not meant to be taken literally but are figurative descriptions of movement or perspective.",
+    "question": "How should readers interpret unusual descriptions like places being 'floating' or 'moving'?",
+    "answer": "These descriptions should be understood as figurative rather than literal, representing perception rather than actual movement.",
     "source_section": "Aeolus island explanation",
     "difficulty": "hard"
   }
