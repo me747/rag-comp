@@ -81,14 +81,16 @@
     "question": "What detail is given about Eumaeus's living location?",
     "answer": "Eumaeus's hut is described as being high above the sea and offering a wide view of the surrounding area.",
     "source_section": "Eumaeus hut description",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "notes": "Text does mention the hut's site as 'could be seen from far,' but explicitly as 'high above the sea, wide view' framing in the expected answer, again a eval design issue on my part (apparently nolan didn't read the original text either)."
   },
   {
     "id": 13,
     "question": "What example from the text shows how everyday objects or customs are described realistically?",
     "answer": "The text describes sandals in detail, explaining how they are made and tied, showing realistic everyday practices.",
     "source_section": "Sandals description",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "notes": "the question was open-ended ('an example of X') & was graded against one specific expected passage (sandals). The text has multiple valid examples of realistic everyday detail (meal service, weaving, clothing) - the model's answer may be a legitimately correct but different example, not a wrong one. Eval design issue on my part, not necessarily a pipeline failure."
   },
   {
     "id": 14,
