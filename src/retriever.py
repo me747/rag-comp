@@ -17,7 +17,7 @@ def build_idx(txt_path): # decided to prototype on public domain so changing pdf
 
     return store
 
-def retrieve(store, question, k=5):
+def retrieve(store, question, k=10):
     question_embedding = embed_text(question)
     results = store.search(question_embedding, k=k)
     return results
@@ -34,15 +34,17 @@ if __name__ == '__main__':
    #     print(f"{r}\n")
     
     '''
-    added this test case after running the baseline, for q4 the LLM was unable to answer this even though Telemachus is constantly mentioned acros the narration 
+    1. added this test case(Who is Odysseus's son?) after running the baseline, for q4 the LLM was unable to answer this even though Telemachus is constantly mentioned across the narration 
     & the model answering there is no mention of Odysseus's own son" almost certainly seems like a retrieval failure, not a generation failure, so doing a manual quick check
+    2. changing the test case from (Who is Odysseus's son?) to "What is suggested about Penelope's behavior toward the suitors?" to check why a previously `CORRECT` question regressed to `INCORRECT` in the latest exp. run
     '''
-    test_question = "Who is Odysseus's son?"
+    test_question = "What is suggested about Penelope's behavior toward the suitors?"
     results = retrieve(store, test_question)
     print(f"question: {test_question}\n")
     for i, r in enumerate(results):
         print(f"***result {i+1}***")
         print(f"{r}\n")
+  
     
         
 
