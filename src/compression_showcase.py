@@ -42,7 +42,9 @@ if __name__ == '__main__':
      ques_to_display = [
           "Who is Odysseus's wife?",
           "Who are the suitors trying to marry?",
-          "What example from the text shows how everyday objects or customs are described realistically?"
+          # "What example from the text shows how everyday objects or customs are described realistically?" I used this question during my initial test runs 
+          # but it feels very open ended and out of current project scope
+          "What does Circe turn Odysseus's men into?" #  "What does Circe turn Odysseus's men into when they first arrive at her island?". Rephrasing question to see how a small change in the query embedding affects retrieval
      ]
 
      results = showcase("data/the_odyssey.txt", ques_to_display)
