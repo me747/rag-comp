@@ -4,7 +4,9 @@ from .embedder import embed_text
 
 def split_into_sent(text):
     # quick sentence splitter to split on . ? ! followed by a space
-    sentences = re.split(r'(?<=[.?!])\s+', text)
+    #* earlier was splitting only on . ? !, but classical literature usually a lot of dialogues enclosed within "".
+    #* so the regex splitter wasn't working as I inteded it to, now added it to allow an optional curly quote character to sit between puncuation & the whitesplit before deciding to split.
+    sentences = re.split(r'(?<=[.?!])["\u201d\u2019]?\s+', text)
     sentences = [s.strip() for s in sentences if s.strip()] # remove emptry strings that sometimes show up 
 
     return sentences
