@@ -2,8 +2,6 @@ import pdfplumber
 import re
 
 def load_pdf(path):
-    # could also try PyPDF2 i think, but pdfplumber seems to be better overall
-
     plain_text = ""
     
     with pdfplumber.open(path) as pdf:
