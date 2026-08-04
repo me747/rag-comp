@@ -53,7 +53,7 @@ def run_full_exp(txt_path, qa_path, threshold=0.3):
             "num_sentences_dropped": len(dropped)
         })
         # saving progress after every question, so a crash doesn't cause total loss (learned this the hard way)
-        with open("experiment_results_odyssey.json", "w") as f:
+        with open("experiment_results_odyssey_v2.json", "w") as f:
                 json.dump(results, f, indent=2)
     
     return results
@@ -62,4 +62,4 @@ if __name__ == '__main__':
     results = run_full_exp("data/the_odyssey.txt", "data/od_qa_pairs.json")
 
     print(f"\ndone, ran {len(results)} questions through both conditions")
-    print(f"saved full results to experiment_results_odyssey.json")
+    print(f"saved full results to experiment_results_odyssey_v2.json")
